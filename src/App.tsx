@@ -9,6 +9,7 @@ function App() {
     socket.on("connect", () => {
       console.log('connect'); // x8WIv7-mJelg7on_ALbx
     });
+    socket.emit("emit", "emit");
   },[])
   return (
     <div className="App">
